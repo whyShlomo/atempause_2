@@ -24,7 +24,7 @@ define('DB_USER', 'adminQrtE8J7');
 define('DB_PASSWORD', 'TKMGdABeb34I');
 
 /** Ersetze localhost mit der MySQL-Serveradresse */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/');
 
 /** Der Datenbankzeichensatz der beim Erstellen der Datenbanktabellen verwendet werden soll */
 define('DB_CHARSET', 'utf8');
